@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-<item android:id="@+id/home" android:icon="@drawable/black_color_home" app:showAsAction="always" android:title="Ana Sayfa"></item>
-    <item android:id="@+id/save" android:title="Kaydedilenler" app:showAsAction="always" android:icon="@drawable/saveimg_black"></item>
-    <item android:id="@+id/settings" app:showAsAction="always" android:title="Ayarlar" android:icon="@drawable/settingsimg_black"></item>
+<item android:id="@+id/url" android:icon="@drawable/url" app:showAsAction="always" android:title="Url ile İndir"></item>
+    <item android:id="@+id/statusServer" android:title="Status Server" app:showAsAction="always" android:icon="@drawable/whatsap"></item>
+    <item android:id="@+id/download" app:showAsAction="always" android:title="İndirilenler" android:icon="@drawable/download"></item>
 </menu>

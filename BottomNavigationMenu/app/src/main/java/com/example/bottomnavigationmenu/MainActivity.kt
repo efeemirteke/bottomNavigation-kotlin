@@ -12,13 +12,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        fragmentGoster(FragmentHome())
+        fragmentGoster(FragmentUrl())
         bottomNavigationView.setOnItemSelectedListener(object:NavigationBarView.OnItemSelectedListener{
             override fun onNavigationItemSelected(item: MenuItem): Boolean {
                 when(item.itemId){
-                    R.id.home->fragmentGoster(FragmentHome())
-                    R.id.save->fragmentGoster(FragmentSave())
-                    R.id.settings->fragmentGoster(FragmentSettings())
+                    R.id.download->fragmentGoster(FragmentDownload())
+                    R.id.url->fragmentGoster(FragmentUrl())
+                    R.id.statusServer->fragmentGoster(FragmentStatusServer())
                 }
                 return true
             }
